@@ -45,7 +45,7 @@ public class SensorDataProcessor {
     private static SensorData lerDadosDosSensores() {
         // Simula a leitura de dados do Arduino (dados aleatórios)
         int luminosidade = random.nextInt(101); // de 0 a 100
-        double temperatura = -10 + random.nextDouble() * 40; // de -10°C a 30°C
+        double temperatura = -10 + random.nextDouble() * 60; // de -10°C a 30°C
         int umidade = random.nextInt(101); // de 0 a 100
 
         // Retorna os dados simulados
