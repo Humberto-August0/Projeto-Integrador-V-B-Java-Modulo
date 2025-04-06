@@ -26,9 +26,6 @@ Simula a leitura de dados de sensores, gerando valores aleatórios dentro de int
 ### 4. Método `processarDados(SensorData dados)`
 Processa os dados simulados dos sensores e fornece feedback sobre as condições do ambiente com base em limites definidos (luminosidade, temperatura e umidade).
 
-### 5. Método `main(String[] args)`
-Inicia a busca pela porta serial do Arduino, abre a porta para simulação de comunicação, coleta dados dos sensores repetidamente e exibe os resultados no console.
-
 ## Requisitos
 
 - **Biblioteca `jSerialComm`**: Para utilizar a comunicação serial, você precisará da biblioteca `jSerialComm`. Certifique-se de adicionar essa dependência ao seu projeto.
